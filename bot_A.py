@@ -10,6 +10,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     photo=photo,
     caption=caption,
     parse_mode="HTML"
+)
    caption = """📈 <b>Benvenuto nel mio bot VIP!</b>
 
 Sono molto contento che da questo momento potrai approcciarti con noi nel mondo del trading, spero che tu possa trovarti bene in questo percorso.
