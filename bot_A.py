@@ -16,8 +16,8 @@ Accedi subito a:
 💬 Contatto diretto con me",
             parse_mode='Markdown',
             reply_markup=InlineKeyboardMarkup([
-                [InlineKeyboardButton("💬 Scrivimi", url="https://t.me/ismaafx")],
-                [InlineKeyboardButton("📚 Vai alle Guide", url="https://t.me/ismaafx_guide_bot")]
+                [InlineKeyboardButton(" Scrivimi", url="https://t.me/ismaafx")],
+                [InlineKeyboardButton(" Vai alle Guide", url="https://t.me/ismaafx_guide_bot")]
             ])
         )
 
