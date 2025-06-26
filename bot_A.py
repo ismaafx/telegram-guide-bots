@@ -1,4 +1,3 @@
-
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup, InputFile
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 
@@ -9,15 +8,10 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
         await context.bot.send_photo(
             chat_id=update.effective_chat.id,
             photo=photo,
-            caption= "Benvenuto nel bot VIP di Isma!\n\nAccedi subito a:\n- Le guide complete\n- Contatto diretto con me",
-
-Accedi subito a:
-📚 Le guide complete
-💬 Contatto diretto con me",
-            parse_mode='Markdown',
+            caption="Benvenuto nel bot VIP di Isma!\n\nAccedi subito a:\n- Le guide complete\n- Contatto diretto con me.",
             reply_markup=InlineKeyboardMarkup([
-                [InlineKeyboardButton(" Scrivimi", url="https://t.me/ismaafx")],
-                [InlineKeyboardButton(" Vai alle Guide", url="https://t.me/ismaafx_guide_bot")]
+                [InlineKeyboardButton("Scrivimi", url="https://t.me/ismaafx")],
+                [InlineKeyboardButton("Vai alle Guide", url="https://t.me/ismaafx_guide_bot")]
             ])
         )
 
